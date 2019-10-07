@@ -9,5 +9,9 @@ edition = "2018"
 [dependencies]
 hyper = { version = "0.13.0-a.4" }
 hyper-tls = { version = "0.4.0-a.4" }
-tokio = { version = "=0.2.0-alpha.6" }
+tokio = { version = "=0.2.0-alpha.5" }
+futures-preview = { version = "0.3.0-alpha.18" }
+futures-core-preview = "=0.3.0-alpha.18"
+futures-io-preview = "=0.3.0-alpha.18"
+async-std = "0.99.8"
 
